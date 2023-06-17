@@ -1,0 +1,25 @@
+.about-section {
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+.about-section p {
+    text-align: justify;
+}
+
+.about-section a {
+    margin: 0 auto;
+}
+
+.go-home-link {
+    color: #fff;
+    font-size: .75rem;
+    text-align: center;
+}
+
+.go-home-wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}

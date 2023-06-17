@@ -1,0 +1,40 @@
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.error {
+    color: #f64f4f;
+}
+
+.success {
+    color: #75eb61;
+}
+
+.message-on-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    animation: from-left .5s forwards;
+    padding: .3rem;
+    text-align: center;
+}
+
+.bg-error {
+    background-color: #2f1616;
+}
+
+@keyframes from-left {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+
+}

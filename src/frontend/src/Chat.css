@@ -1,0 +1,28 @@
+.chat {
+    flex: 1;
+    min-height: 100vh;
+    padding: 0 3rem;
+}
+
+.new-msg-form {
+    display: flex;
+}
+
+.new-msg {
+    resize: none;
+    width: 80%;
+    background-color: transparent;
+    border-radius: .7rem;
+    height: min-content;
+    padding: .8rem .5rem;
+    font-family: inherit;
+}
+
+.new-msg-button {
+    background-color: transparent;
+}
+
+.chat-wrapper {
+    overflow-y: scroll;
+    height: 85vh;
+}

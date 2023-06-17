@@ -1,0 +1,44 @@
+.create-post-wrapper {
+    flex: 1;
+    min-height: 100vh;
+}
+
+.new-post-form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    gap: 1rem;
+}
+
+.new-post-form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    max-width: 500px;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.new-post-form h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.new-post-form input,
+.new-post-form textarea {
+    border: none;
+    border-bottom: 2px solid #1113;
+    border-radius: .5rem;
+    padding: .5rem .5rem;
+    background-color: #3333;
+}
+
+.new-post-form textarea {
+    resize: none;
+    min-height: 250px;
+    font-family: inherit;
+    line-height: 1.5;
+}
+

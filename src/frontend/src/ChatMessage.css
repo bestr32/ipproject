@@ -1,0 +1,36 @@
+.chat-message {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.chat-message:has(.primary-user-msg),
+.chat-message:has(.secondary-user-msg) {
+    justify-content: flex-end;
+}
+
+.chat-message:has(.secondary-user-msg) {
+    flex-flow: row-reverse;
+}
+
+.primary-user-msg,
+.secondary-user-msg {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 50%;
+}
+
+.primary-user-msg {
+    text-align: right;
+}
+
+.secondary-user-msg {
+    text-align: left;
+}
+
+.sender-name {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
